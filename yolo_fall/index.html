@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fall Detection History</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .fall-history {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .fall-entry {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+        }
+        .fall-entry img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .fall-entry h3 {
+            color: #007BFF;
+        }
+        .fall-entry p {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Fall Detection History</h1>
+    
+    <div class="fall-history">
+        <!-- Fall history will be dynamically injected here -->
+        {% for entry in fall_history %}
+        <div class="fall-entry">
+            <img src="{{ entry.image_base64 }}" alt="Fall Image">
+            <h3>{{ 'Fall Detected' if entry.fall_detected else 'No Fall Detected' }}</h3>
+            <p>Time: {{ entry.fall_time }}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>

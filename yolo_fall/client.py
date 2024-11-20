@@ -26,7 +26,7 @@ with open('code/code/classes.txt', 'r') as f:
     classnames = f.read().splitlines()
 
 # Server URL for fall detection
-url = "http://127.0.0.1:5000/fall-detected"
+url = "http://127.0.0.1:5000/fall-detected2"
 
 # File path for storing fall history
 HISTORY_FILE = 'fall_history.json'
@@ -69,6 +69,11 @@ def send_fall_signal(cropped_image):
     except requests.exceptions.RequestException as e:
         print(f"Error sending request: {e}")
 
+# Variables to store the best detection
+best_conf = 0  # Confidence tertinggi
+best_image = None  # Gambar terbaik
+best_fall_entry = None  # Informasi terbaik
+
 while True:
     ret, frame = cap.read()
     if not ret:
@@ -108,13 +113,10 @@ while True:
 
             # If a fall is detected based on threshold logic
             if threshold < 0:
-                # Display "Fall Detected" on the frame
-                cvzone.putTextRect(frame, 'Fall Detected', [height, width], thickness=2, scale=2)
-                
                 # Crop the image to the detected bounding box
                 cropped_image = frame[y1:y2, x1:x2]
-                
-                # Save fall detection information in fall history
+
+                # Save fall detection information
                 fall_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 fall_entry = {
                     "fall_detected": True,
@@ -122,19 +124,32 @@ while True:
                     "image_filename": f"{fall_time.replace(':', '-').replace(' ', '_')}.jpg"
                 }
 
-                # Save the cropped image to disk
-                image_path = os.path.join('uploaded_images', fall_entry["image_filename"])
-                os.makedirs(os.path.dirname(image_path), exist_ok=True)
-                cv2.imwrite(image_path, cropped_image)
+                # Update the best image if this detection is better
+                if conf > best_conf:
+                    best_conf = conf
+                    best_image = cropped_image
+                    best_fall_entry = fall_entry
 
-                # Append the fall entry to fall history
-                fall_history.append(fall_entry)
+    # Save the best detection after processing the frame
+    if best_image is not None:
+        # Save the best image to disk
+        image_path = os.path.join('uploaded_images', best_fall_entry["image_filename"])
+        os.makedirs(os.path.dirname(image_path), exist_ok=True)
+        cv2.imwrite(image_path, best_image)
 
-                # Save the updated fall history to the JSON file
-                save_fall_history(fall_history)
+        # Append the best fall entry to fall history
+        fall_history.append(best_fall_entry)
 
-                # Send fall detection signal and image to the server
-                send_fall_signal(cropped_image)
+        # Save the updated fall history to the JSON file
+        save_fall_history(fall_history)
+
+        # Send fall detection signal and image to the server
+        send_fall_signal(best_image)
+
+        # Reset the best detection variables for the next frame
+        best_conf = 0
+        best_image = None
+        best_fall_entry = None
 
     # Write the frame into the output video file
     out.write(frame)
