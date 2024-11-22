@@ -3,26 +3,26 @@ import cv2
 import cvzone
 import math
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 from ultralytics import YOLO
 import json
 
 # Initialize video capture and writer
-cap = cv2.VideoCapture('code/code/fall.mp4')
+cap = cv2.VideoCapture('./yolo_fall/fall_2.mp4')
 
 # Get the width and height of the video frames
 frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
 
 # Define the codec and create VideoWriter object
-out = cv2.VideoWriter('output_fall_detection.mp4', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 10, (frame_width, frame_height))
+out = cv2.VideoWriter('output_fall_detection.mp4', cv2.VideoWriter_fourcc(*'mp4v'), 10, (frame_width, frame_height))
 
 # Load YOLO model
 model = YOLO('yolov8s-pose.pt')
 
 # Load class names
 classnames = []
-with open('code/code/classes.txt', 'r') as f:
+with open('./yolo_fall/classes.txt', 'r') as f:
     classnames = f.read().splitlines()
 
 # Server URL for fall detection
@@ -35,7 +35,11 @@ HISTORY_FILE = 'fall_history.json'
 def load_fall_history():
     if os.path.exists(HISTORY_FILE):
         with open(HISTORY_FILE, 'r') as f:
-            return json.load(f)
+            content = f.read().strip()
+            if content:
+                return json.loads(content)
+            else:
+                return []
     return []
 
 # Function to save fall history to a JSON file
@@ -50,7 +54,7 @@ fall_history = load_fall_history()
 def send_fall_signal(cropped_image):
     # Set the time for fall detection
     fall_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
+
     # Convert image to memory file for sending
     _, image_encoded = cv2.imencode('.jpg', cropped_image)
     files = {'image': ('fall_image.jpg', image_encoded.tobytes(), 'image/jpeg')}
@@ -58,7 +62,7 @@ def send_fall_signal(cropped_image):
         "fall_detected": True,
         "fall_time": fall_time
     }
-    
+
     try:
         # Send POST request to the server
         response = requests.post(url, data=data, files=files)
@@ -73,6 +77,7 @@ def send_fall_signal(cropped_image):
 best_conf = 0  # Confidence tertinggi
 best_image = None  # Gambar terbaik
 best_fall_entry = None  # Informasi terbaik
+last_detection_time = datetime.min  # Time of the last detection sent
 
 while True:
     ret, frame = cap.read()
@@ -130,8 +135,11 @@ while True:
                     best_image = cropped_image
                     best_fall_entry = fall_entry
 
+                # Add "Fall Detected" text inside the bounding box
+                cvzone.putTextRect(frame, "Fall Detected", [x2 - 150, y1 - 12], thickness=2, scale=2)
+
     # Save the best detection after processing the frame
-    if best_image is not None:
+    if best_image is not None and datetime.now() - last_detection_time >= timedelta(seconds=10):
         # Save the best image to disk
         image_path = os.path.join('uploaded_images', best_fall_entry["image_filename"])
         os.makedirs(os.path.dirname(image_path), exist_ok=True)
@@ -146,17 +154,15 @@ while True:
         # Send fall detection signal and image to the server
         send_fall_signal(best_image)
 
-        # Reset the best detection variables for the next frame
-        best_conf = 0
-        best_image = None
-        best_fall_entry = None
+        # Update the last detection time
+        last_detection_time = datetime.now()
 
     # Write the frame into the output video file
     out.write(frame)
 
     # Show the frame in a window
     cv2.imshow('frame', frame)
-    
+
     # Break the loop if 't' is pressed
     if cv2.waitKey(1) & 0xFF == ord('t'):
         break

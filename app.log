@@ -1,0 +1,218 @@
+2024-11-22 08:54:25,841 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.135.55.243:5000
+2024-11-22 08:54:25,841 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-11-22 08:54:34,611 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/20241120093858_fall_image.jpg
+2024-11-22 08:54:34,611 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/20241120093858_fall_image.jpg
+2024-11-22 08:54:34,611 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/20241120093942_fall_image.jpg
+2024-11-22 08:54:34,611 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/20241120093942_fall_image.jpg
+2024-11-22 08:54:34,611 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-22.jpg
+2024-11-22 08:54:34,612 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-22.jpg
+2024-11-22 08:54:34,612 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-23.jpg
+2024-11-22 08:54:34,612 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-23.jpg
+2024-11-22 08:54:34,612 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-23.jpg
+2024-11-22 08:54:34,612 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-23.jpg
+2024-11-22 08:54:34,612 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-24.jpg
+2024-11-22 08:54:34,612 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-24.jpg
+2024-11-22 08:54:34,612 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-24.jpg
+2024-11-22 08:54:34,612 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-24.jpg
+2024-11-22 08:54:34,612 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-26.jpg
+2024-11-22 08:54:34,613 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-26.jpg
+2024-11-22 08:54:34,613 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-28.jpg
+2024-11-22 08:54:34,613 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-28.jpg
+2024-11-22 08:54:34,613 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-28.jpg
+2024-11-22 08:54:34,613 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-28.jpg
+2024-11-22 08:54:34,613 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-30.jpg
+2024-11-22 08:54:34,613 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-30.jpg
+2024-11-22 08:54:34,613 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-31.jpg
+2024-11-22 08:54:34,613 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-31.jpg
+2024-11-22 08:54:34,613 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-31.jpg
+2024-11-22 08:54:34,613 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-31.jpg
+2024-11-22 08:54:34,613 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-32.jpg
+2024-11-22 08:54:34,613 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-32.jpg
+2024-11-22 08:54:34,614 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-32.jpg
+2024-11-22 08:54:34,614 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-32.jpg
+2024-11-22 08:54:34,614 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-32.jpg
+2024-11-22 08:54:34,614 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-32.jpg
+2024-11-22 08:54:34,614 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-33.jpg
+2024-11-22 08:54:34,614 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-33.jpg
+2024-11-22 08:54:34,614 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-33.jpg
+2024-11-22 08:54:34,614 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-33.jpg
+2024-11-22 08:54:34,614 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-34.jpg
+2024-11-22 08:54:34,614 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-34.jpg
+2024-11-22 08:54:34,614 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-34.jpg
+2024-11-22 08:54:34,614 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-34.jpg
+2024-11-22 08:54:34,614 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-34.jpg
+2024-11-22 08:54:34,614 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-34.jpg
+2024-11-22 08:54:34,614 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-35.jpg
+2024-11-22 08:54:34,614 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-35.jpg
+2024-11-22 08:54:34,614 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-35.jpg
+2024-11-22 08:54:34,614 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-35.jpg
+2024-11-22 08:54:34,614 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-35.jpg
+2024-11-22 08:54:34,614 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-35.jpg
+2024-11-22 08:54:34,615 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-36.jpg
+2024-11-22 08:54:34,615 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-36.jpg
+2024-11-22 08:54:34,615 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-36.jpg
+2024-11-22 08:54:34,615 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-36.jpg
+2024-11-22 08:54:34,615 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-37.jpg
+2024-11-22 08:54:34,615 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-37.jpg
+2024-11-22 08:54:34,615 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-37.jpg
+2024-11-22 08:54:34,615 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-37.jpg
+2024-11-22 08:54:34,615 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-37.jpg
+2024-11-22 08:54:34,615 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-37.jpg
+2024-11-22 08:54:34,615 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-38.jpg
+2024-11-22 08:54:34,615 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-38.jpg
+2024-11-22 08:54:34,615 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-38.jpg
+2024-11-22 08:54:34,615 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-38.jpg
+2024-11-22 08:54:34,615 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-39.jpg
+2024-11-22 08:54:34,615 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-39.jpg
+2024-11-22 08:54:34,615 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-39.jpg
+2024-11-22 08:54:34,615 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-39.jpg
+2024-11-22 08:54:34,616 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-41.jpg
+2024-11-22 08:54:34,616 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-41.jpg
+2024-11-22 08:54:34,616 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-43.jpg
+2024-11-22 08:54:34,616 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-43.jpg
+2024-11-22 08:54:34,616 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-44.jpg
+2024-11-22 08:54:34,616 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-44.jpg
+2024-11-22 08:54:34,616 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-44.jpg
+2024-11-22 08:54:34,616 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-44.jpg
+2024-11-22 08:54:34,616 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-45.jpg
+2024-11-22 08:54:34,616 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-45.jpg
+2024-11-22 08:54:34,616 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-48.jpg
+2024-11-22 08:54:34,616 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-48.jpg
+2024-11-22 08:54:34,616 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-49.jpg
+2024-11-22 08:54:34,616 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-49.jpg
+2024-11-22 08:54:34,616 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-50.jpg
+2024-11-22 08:54:34,616 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-50.jpg
+2024-11-22 08:54:34,616 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-51.jpg
+2024-11-22 08:54:34,616 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-51.jpg
+2024-11-22 08:54:34,616 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-51.jpg
+2024-11-22 08:54:34,616 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-51.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-52.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-52.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-52.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-52.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-52.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-52.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-53.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-53.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-53.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-53.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-54.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-54.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-54.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-54.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-54.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-54.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-56.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-56.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-58.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-58.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-34-59.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-34-59.jpg
+2024-11-22 08:54:34,617 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-00.jpg
+2024-11-22 08:54:34,617 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-00.jpg
+2024-11-22 08:54:34,618 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-00.jpg
+2024-11-22 08:54:34,618 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-00.jpg
+2024-11-22 08:54:34,618 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-01.jpg
+2024-11-22 08:54:34,618 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-01.jpg
+2024-11-22 08:54:34,618 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-01.jpg
+2024-11-22 08:54:34,618 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-01.jpg
+2024-11-22 08:54:34,618 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-02.jpg
+2024-11-22 08:54:34,618 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-02.jpg
+2024-11-22 08:54:34,618 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-02.jpg
+2024-11-22 08:54:34,618 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-02.jpg
+2024-11-22 08:54:34,618 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-02.jpg
+2024-11-22 08:54:34,618 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-02.jpg
+2024-11-22 08:54:34,618 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-03.jpg
+2024-11-22 08:54:34,618 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-03.jpg
+2024-11-22 08:54:34,618 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-03.jpg
+2024-11-22 08:54:34,618 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-03.jpg
+2024-11-22 08:54:34,618 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-04.jpg
+2024-11-22 08:54:34,618 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-04.jpg
+2024-11-22 08:54:34,618 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-04.jpg
+2024-11-22 08:54:34,618 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-04.jpg
+2024-11-22 08:54:34,619 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-04.jpg
+2024-11-22 08:54:34,619 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-04.jpg
+2024-11-22 08:54:34,619 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-05.jpg
+2024-11-22 08:54:34,619 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-05.jpg
+2024-11-22 08:54:34,619 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-05.jpg
+2024-11-22 08:54:34,619 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-05.jpg
+2024-11-22 08:54:34,619 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-05.jpg
+2024-11-22 08:54:34,619 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-05.jpg
+2024-11-22 08:54:34,619 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-06.jpg
+2024-11-22 08:54:34,619 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-06.jpg
+2024-11-22 08:54:34,619 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-06.jpg
+2024-11-22 08:54:34,619 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-06.jpg
+2024-11-22 08:54:34,619 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-07.jpg
+2024-11-22 08:54:34,619 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-07.jpg
+2024-11-22 08:54:34,619 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-07.jpg
+2024-11-22 08:54:34,619 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-07.jpg
+2024-11-22 08:54:34,619 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-08.jpg
+2024-11-22 08:54:34,619 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-08.jpg
+2024-11-22 08:54:34,619 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-08.jpg
+2024-11-22 08:54:34,619 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-08.jpg
+2024-11-22 08:54:34,619 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-08.jpg
+2024-11-22 08:54:34,619 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-08.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-09.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-09.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-09.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-09.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-10.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-10.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-11.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-11.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-11.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-11.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-14.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-14.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-14.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-14.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-15.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-15.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-16.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-16.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-16.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-16.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-18.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-18.jpg
+2024-11-22 08:54:34,620 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-18.jpg
+2024-11-22 08:54:34,620 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-18.jpg
+2024-11-22 08:54:34,621 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-19.jpg
+2024-11-22 08:54:34,621 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-19.jpg
+2024-11-22 08:54:34,621 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-19.jpg
+2024-11-22 08:54:34,621 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-19.jpg
+2024-11-22 08:54:34,621 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-20.jpg
+2024-11-22 08:54:34,621 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-20.jpg
+2024-11-22 08:54:34,621 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-20.jpg
+2024-11-22 08:54:34,621 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-20.jpg
+2024-11-22 08:54:34,621 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-21.jpg
+2024-11-22 08:54:34,621 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-21.jpg
+2024-11-22 08:54:34,621 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-22.jpg
+2024-11-22 08:54:34,621 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-22.jpg
+2024-11-22 08:54:34,621 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-22.jpg
+2024-11-22 08:54:34,621 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-22.jpg
+2024-11-22 08:54:34,621 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-23.jpg
+2024-11-22 08:54:34,621 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-23.jpg
+2024-11-22 08:54:34,622 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-24.jpg
+2024-11-22 08:54:34,622 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-24.jpg
+2024-11-22 08:54:34,622 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-25.jpg
+2024-11-22 08:54:34,622 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-25.jpg
+2024-11-22 08:54:34,622 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-27.jpg
+2024-11-22 08:54:34,622 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-27.jpg
+2024-11-22 08:54:34,622 DEBUG root Thread-1 (process_request_thread) : Checking image path: uploaded_images/2024-11-22_08-35-29.jpg
+2024-11-22 08:54:34,622 WARNING root Thread-1 (process_request_thread) : Image file not found: uploaded_images/2024-11-22_08-35-29.jpg
+2024-11-22 08:54:34,649 INFO werkzeug Thread-1 (process_request_thread) : 172.20.10.6 - - [22/Nov/2024 08:54:34] "GET /fall-detected HTTP/1.1" 200 -
+2024-11-22 08:54:34,817 INFO werkzeug Thread-2 (process_request_thread) : 172.20.10.6 - - [22/Nov/2024 08:54:34] "[33mGET /None HTTP/1.1[0m" 404 -
+2024-11-22 08:54:34,998 INFO werkzeug Thread-3 (process_request_thread) : 172.20.10.6 - - [22/Nov/2024 08:54:34] "[33mGET /None HTTP/1.1[0m" 404 -
+2024-11-22 08:54:41,251 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.135.55.243:5000
+2024-11-22 08:54:41,251 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-11-22 08:56:55,462 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.135.55.243:5000
+2024-11-22 08:56:55,462 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m

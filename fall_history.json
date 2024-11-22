@@ -1,0 +1,27 @@
+[
+    {
+        "fall_detected": true,
+        "fall_time": "2024-11-22 10:17:05",
+        "image_filename": "20241122101705_fall_image.jpg"
+    },
+    {
+        "fall_detected": true,
+        "fall_time": "2024-11-22 10:17:15",
+        "image_filename": "20241122101715_fall_image.jpg"
+    },
+    {
+        "fall_detected": true,
+        "fall_time": "2024-11-22 10:17:25",
+        "image_filename": "20241122101725_fall_image.jpg"
+    },
+    {
+        "fall_detected": true,
+        "fall_time": "2024-11-22 10:17:36",
+        "image_filename": "20241122101736_fall_image.jpg"
+    },
+    {
+        "fall_detected": true,
+        "fall_time": "2024-11-22 10:17:46",
+        "image_filename": "20241122101746_fall_image.jpg"
+    }
+]

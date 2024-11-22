@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worker Not Do The Job History</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            margin: 0;
+            padding: 20px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        li {
+            background-color: white;
+            margin: 10px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        img {
+            display: block;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+        }
+
+        em {
+            color: #777;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Worker Not Do The Job History</h1>
+    <ul>
+        {% for entry in history %}
+            <li>
+                <strong>Worker ID:</strong> {{ entry.worker_id }}<br>
+                <strong>Activity:</strong> {{ entry.activity }}<br>
+                <strong>Duration:</strong> {{ entry.duration }} seconds<br>
+                <strong>Time:</strong> {{ entry.detection_time }}<br>
+                {% if entry.image_base64 %}
+                    <img src="{{ entry.image_base64 }}" alt="Image">
+                {% else %}
+                    <em>No image available.</em>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
