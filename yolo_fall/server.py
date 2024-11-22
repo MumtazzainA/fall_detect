@@ -19,7 +19,11 @@ NOTDJ_HISTORY_FILE = 'notDj_history.json'
 def load_history(file_path):
     if os.path.exists(file_path):
         with open(file_path, 'r') as f:
-            return json.load(f)
+            content = f.read().strip()
+            if content:
+                return json.loads(content)
+            else:
+                return []
     return []
 
 # Menyimpan riwayat deteksi ke dalam file JSON
@@ -170,6 +174,24 @@ def reset_not_dj():
     print("notDj data has been reset.")
     return jsonify({"message": "notDj data has been reset."}), 200
 
+@app.route('/purge-history', methods=['POST'])
+def purge_history():
+    try:
+        global fall_history, notDj_history
+
+        # Clear the in-memory history lists
+        fall_history = []
+        notDj_history = []
+
+        # Clear the contents of the history files
+        open(FALL_HISTORY_FILE, 'w').close()
+        open(NOTDJ_HISTORY_FILE, 'w').close()
+
+        print("All history data has been purged.")
+        return jsonify({"message": "All history data has been purged."}), 200
+    except Exception as e:
+        print(f"Error purging history data: {e}")
+        return "Internal Server Error", 500
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
